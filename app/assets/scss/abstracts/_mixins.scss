@@ -6,12 +6,18 @@
 
 @mixin respond($breakpoint) {
   @if $breakpoint == sm {
-    @media (max-width: $bp-sm) { @content; }
+    @media (max-width: $bp-sm) {
+      @content;
+    }
   }
   @if $breakpoint == md {
-    @media (max-width: $bp-md) { @content; }
+    @media (max-width: $bp-md) {
+      @content;
+    }
   }
   @if $breakpoint == lg {
-    @media (max-width: $bp-lg) { @content; }
+    @media (max-width: $bp-lg) {
+      @content;
+    }
   }
 }

@@ -17,14 +17,14 @@ export default [
       parserOptions: {
         parser: tseslint.parser,
         ecmaVersion: 'latest',
-        sourceType: 'module'
-      }
+        sourceType: 'module',
+      },
     },
     plugins: { vue },
     rules: {
-      ...vue.configs.essential.rules,   // <— ESTA ES LA CORRECTA
-      'vue/multi-word-component-names': 'off'
-    }
+      ...vue.configs.essential.rules,
+      'vue/multi-word-component-names': 'off',
+    },
   },
 
   // Global custom rules
@@ -32,8 +32,8 @@ export default [
     rules: {
       semi: ['error', 'never'],
       quotes: ['error', 'single'],
-      'no-unused-vars': 'warn'
-    }
+      'no-unused-vars': 'warn',
+    },
   },
 
   // Ignores
@@ -52,7 +52,7 @@ export default [
       '.idea/',
       '.fleet/',
       '.vscode/',
-      '*.log'
-    ]
-  }
+      '*.log',
+    ],
+  },
 ]

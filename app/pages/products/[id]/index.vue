@@ -2,12 +2,11 @@
 const route = useRoute()
 const productId = route.params.id
 
-const { data: product, pending, error } = await useFetch(`/api/products/${productId}`);
+const { data: product, pending, error } = await useFetch(`/api/products/${productId}`)
 </script>
 
 <template>
   <div class="product-page">
-
     <!-- Loading -->
     <div v-if="pending">Cargando producto...</div>
 
