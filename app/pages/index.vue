@@ -1,4 +1,14 @@
 <template>
-  <h1>Hola desde NUXT 3 === pagina de entrada</h1>
-  <p>Ya está viviendo dentro de app/pages/index.vue</p>
+  <section>
+    <h1>Bienvenido a MyNuxtStore</h1>
+
+    <p>
+      Esta es la página principal. Aquí puedes poner banners, categorías, 
+      productos destacados, o lo que sea.
+    </p>
+
+    <NuxtLink to="/products">
+      Ver todos los productos
+    </NuxtLink>
+  </section>
 </template>
