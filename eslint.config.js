@@ -19,6 +19,18 @@ export default [
         ecmaVersion: 'latest',
         sourceType: 'module',
       },
+      globals: {
+        useRoute: 'readonly',
+        useRouter: 'readonly',
+        useFetch: 'readonly',
+        useState: 'readonly',
+        useAsyncData: 'readonly',
+        definePageMeta: 'readonly',
+        defineProps: 'readonly',
+        defineEmits: 'readonly',
+        defineNuxtPlugin: 'readonly',
+        $fetch: 'readonly'
+      }
     },
     plugins: { vue },
     rules: {
@@ -30,7 +42,7 @@ export default [
   // Global custom rules
   {
     rules: {
-      semi: ['error', 'never'],
+      semi: ['error', 'always'],
       quotes: ['error', 'single'],
       'no-unused-vars': 'warn',
     },
@@ -53,6 +65,8 @@ export default [
       '.fleet/',
       '.vscode/',
       '*.log',
+      'eslint.config.js',
+      'nuxt.config.ts'
     ],
   },
 ]
