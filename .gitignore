@@ -36,11 +36,6 @@ Thumbs.db
 *.njsproj
 *.sln
 
-# Optional: If you don't want to commit lockfiles (choose one only!)
-package-lock.json
-# yarn.lock
-# pnpm-lock.yaml
-
 # TypeScript cache
 *.tsbuildinfo
 
