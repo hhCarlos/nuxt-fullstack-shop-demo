@@ -14,4 +14,7 @@ jobs:
   lint:
     uses: ./.github/workflows/lint.yml
     needs: [format]
-    
+
+  build:
+    uses: ./.github/workflows/build.yml
+    needs: [lint]
