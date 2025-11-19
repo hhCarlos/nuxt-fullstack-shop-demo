@@ -1,5 +1,5 @@
 <script setup>
-const route = useRoute();
+const route = useRoute()
 const productId = route.params.id
 
 const { data: product, pending, error } = await useFetch(`/api/products/${productId}`);
