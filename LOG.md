@@ -11,3 +11,15 @@ Se genera carpeta y estructura inicial para componentes y layouts.
 
 Branch: feat/component-layouts-init
 Date: Noviembre 18 2025
+
+## 3. CI: Se integra CI al proyecto
+
+Se genera CI al proyecto, con workflows, para.
+
+- formato
+- lint
+- unit testing
+- build
+
+Branch: ci/workflows
+Date: Noviembre 18 2025
