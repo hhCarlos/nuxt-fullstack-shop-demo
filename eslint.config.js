@@ -29,8 +29,8 @@ export default [
         defineProps: 'readonly',
         defineEmits: 'readonly',
         defineNuxtPlugin: 'readonly',
-        $fetch: 'readonly'
-      }
+        $fetch: 'readonly',
+      },
     },
     plugins: { vue },
     rules: {
@@ -66,7 +66,7 @@ export default [
       '.vscode/',
       '*.log',
       'eslint.config.js',
-      'nuxt.config.ts'
+      'nuxt.config.ts',
     ],
   },
 ]
