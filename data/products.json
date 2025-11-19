@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop Gamer RTX 5080",
+    "price": 45000,
+    "thumbnail": "/img/laptop.jpg",
+    "specs": {
+      "cpu": "Ryzen 9 7900X",
+      "gpu": "RTX 5080",
+      "ram": "32GB DDR5",
+      "ssd": "2TB NVMe"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Monitor Ultrawide 34'' 144Hz",
+    "price": 12000,
+    "thumbnail": "/img/monitor.jpg",
+    "specs": {
+      "resolution": "3440x1440",
+      "refreshRate": "144Hz",
+      "panel": "IPS"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Silla Ergo Pro Max",
+    "price": 8900,
+    "thumbnail": "/img/chair.jpg",
+    "specs": {
+      "material": "Mesh premium",
+      "recline": "135º",
+      "support": "Lumbar ajustable"
+    }
+  }
+]
